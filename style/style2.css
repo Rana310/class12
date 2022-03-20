@@ -1,0 +1,70 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation-name: open1;
+          animation-name: open1;
+  -webkit-animation-duration: 4sec;
+          animation-duration: 4sec;
+}
+
+.card-img-top {
+  height: 300px;
+  -webkit-box-sizing: 100px;
+          box-sizing: 100px;
+}
+
+.card-img-top:hover {
+  zoom: 150%;
+}
+
+.card-text:hover {
+  background-color: beige;
+  font-size: large;
+  font: bold;
+}
+
+.card-title {
+  font-style: italic;
+  background-color: bisque;
+  border-style: dotted;
+  font: bolder;
+}
+
+.foot-buton {
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+@-webkit-keyframes open1 {
+  0% {
+    background-color: grey;
+  }
+  33% {
+    background-color: white;
+  }
+  65% {
+    background-color: gold;
+  }
+  100% {
+    background-color: lightblue;
+  }
+}
+
+@keyframes open1 {
+  0% {
+    background-color: grey;
+  }
+  33% {
+    background-color: white;
+  }
+  65% {
+    background-color: gold;
+  }
+  100% {
+    background-color: lightblue;
+  }
+}
+/*# sourceMappingURL=style2.css.map */

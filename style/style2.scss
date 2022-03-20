@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    animation-name: open1;
+    animation-duration: 4sec;
+    
+}
+$text-color:beige;
+$body-color:grey;
+$body-color1:white;
+$body-color2:gold;
+$body-color3:lightblue;
+$border:100px;
+
+
+.card-img-top{
+    height: 300px;
+    box-sizing: $border;
+
+}
+.card-img-top:hover{
+    zoom: 150%;
+}
+
+.card-text:hover{
+    background-color:$text-color;
+    font-size: large;
+    font: bold;
+
+
+}
+
+    
+
+.card-title{
+    font-style: italic;
+    background-color: bisque;
+    border-style: dotted;
+    font: bolder;
+}
+.foot-buton{
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+@keyframes open1{
+   0% {background-color: $body-color; }
+    33%{background-color: $body-color1;}
+    65%{background-color: $body-color2;}
+   100%{background-color: $body-color3;}}
+
+ 
+
